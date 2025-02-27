@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url("resourses/image/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.79;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+
+    height: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.heading {
+    font-family: "Martel Sans", serif;
+    height:calc(100% - 62px) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.heading> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.heading> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.heading> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.sepration{
+    height: 7px;
+    background-color: rgb(48, 48, 48);
+}
+
+    
+
+.btn-red{
+    padding: 3px 24px;
+    background-color: red;
+    color: white;
+    font-weight: 16px;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+.btn-red-1{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 0 7px;
+}
+.btn-eng{
+    background-color:  rgba(23, 23, 23, 0.2);
+    color: white;
+    border-radius: 4px;
+    padding: 0 10px;
+    gap: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.533);
+}
+.main input{
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid white;
+    padding: 3px 24px;
+    border-radius: 4px;
+    color:  rgb(157, 153, 153);
+}
+.heading-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
